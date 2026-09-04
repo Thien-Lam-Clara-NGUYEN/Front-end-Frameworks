@@ -3,7 +3,7 @@ name: Tests
 on:
   push:
     tags:
-      - '*Clara Submit*'
+      - '*Clara Submit2*'
 
 jobs:
   test:
