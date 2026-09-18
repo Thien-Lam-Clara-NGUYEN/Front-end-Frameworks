@@ -1,0 +1,43 @@
+import type { Movie } from '../types';
+
+export const SAMPLE_MOVIES: Movie[] = [
+  {
+    id: 1,
+    title: 'Avatar: The Way of Water',
+    overview: 'Jake Sully and Ney\'tiri have formed a family on Pandora.',
+    poster_path: '/avatar.jpg',
+    backdrop_path: null,
+    release_date: '2022-12-14',
+    vote_average: 7.6,
+    vote_count: 10000,
+    popularity: 500,
+    genre_ids: [878, 12],
+    adult: false,
+  },
+  {
+    id: 2,
+    title: 'John Wick: Chapter 4',
+    overview: 'John Wick uncovers a path to defeating the High Table.',
+    poster_path: '/johnwick4.jpg',
+    backdrop_path: null,
+    release_date: '2023-03-24',
+    vote_average: 7.8,
+    vote_count: 6000,
+    popularity: 400,
+    genre_ids: [28, 53],
+    adult: false,
+  },
+  {
+    id: 3,
+    title: 'Ant-Man and the Wasp: Quantumania',
+    overview: 'Scott Lang and Hope Van Dyne are dragged into the Quantum Realm.',
+    poster_path: '/antman.jpg',
+    backdrop_path: null,
+    release_date: '2023-02-15',
+    vote_average: 6.2,
+    vote_count: 3000,
+    popularity: 300,
+    genre_ids: [28, 12, 878],
+    adult: false,
+  },
+];
